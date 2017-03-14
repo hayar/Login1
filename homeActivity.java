@@ -18,9 +18,7 @@ public class homeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        //액션바 숨기기
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+
 
         buttonSetting = (Button) findViewById(R.id.buttonSetting);
         buttonList = (Button) findViewById(R.id.buttonList);
